@@ -48,12 +48,7 @@ This project helped me understand how Flexbox can center elements both horizonta
 }
 ```
 
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
-
-
 ### AI Collaboration
-
-Describe how you used AI tools (if any) during this project. This helps demonstrate your ability to work effectively with AI assistants.
 
 - ChatGPT
 - debugging
