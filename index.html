@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+
+  <title>Frontend Mentor | QR code component</title>
+  <style>
+    @import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+
+    * {
+      padding: 0;
+      margin: 0;
+    }
+
+    body {
+      background-color: hsl(212, 45%, 89%);
+      height:100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+    }
+
+    .box {
+      width: 245px;
+      height: 400px;
+      background-color: hsl(0, 0%, 100%);
+      border-radius: 12px;
+    }
+
+    .box img {
+      border-radius: 8px;
+      width: 220px;
+      height: 220px;
+      margin: 13px 12px;
+    }
+
+    .box h3 {
+      color: hsl(218, 44%, 22%);
+      padding: 15px 20px;
+      text-align: center;
+      font-size: 18px;
+      font-family: "Outfit";
+      font-weight: 700;
+    }
+
+    .box p {
+      color: hsl(216, 15%, 48%);
+      font-size: 13px;
+      padding: 0px 20px 25px;
+      text-align: center;
+      font-family: "Outfit";
+      font-weight: 400;
+    }
+
+    .attribution {
+      margin-top: 30px;
+      font-size: 16px;
+      text-align: center;
+      font-family: "outfit",sans-serif;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+      text-decoration: none;
+      transition: 0.2s ease-in;
+    }
+    .attribution a:hover{
+      color:brown;
+    }
+    @media screen and (max-width:375px){
+      .attribution{
+        display:flex;
+        flex-direction: column;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="box">
+    <img src="images/image-qr-code.png" />
+    <h3>Improve your front-end skills by building projects</h3>
+    <p>
+      Scan the QR code to visit Frontend Mentor and take your coding skills to
+      the next level
+    </p>
+  </div>
+
+  <footer class="attribution">
+    <div>
+      Challenge by<a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>.
+    </div>
+    <div>
+    Coded by <a href="#">Md. Kudrat Uj Jaman Shourav</a>.
+    </div>
+  </footer>
+</body>
+
+</html>
